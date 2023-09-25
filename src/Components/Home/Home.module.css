@@ -1,0 +1,155 @@
+/* Styling for the contactTable */
+.contactTable {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;    
+    
+    margin-bottom: 2vh;
+   
+}
+
+
+table {
+    border-spacing: 4px;
+    border-collapse: separate;
+    width: 50%;
+    
+}
+
+.tableHead:hover{
+    background-color: #343a40;
+}
+
+th,
+td {
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;
+    
+     
+    
+} 
+tbody{
+    background-color: #f0cfda;
+} 
+
+thead {
+    background-color: #d930df;
+    color: white;
+    height: 5vh;
+    text-align: center;
+      
+    
+}
+
+.contactTable td {
+    border-bottom: 1px solid #5639639d; /* Dark line after headers */
+    padding: 15px;
+   
+    font-style: italic ;
+    font-weight: 600;
+   text-align:  left;
+   text-indent: 5px;
+    
+}
+.contact::before{
+    content: ""; /* Empty content to insert the image */
+    width: 40px; /* Set the desired width for the image */
+    height: 40px; /* Set the desired height for the image */
+    display: inline-block; /* Allows the image to be inline with text */
+    margin-right: 10px; /* Optional spacing between the image and text */
+    vertical-align: middle; /* Center the image vertically with the text */
+  background-image: url(../../assests/contact-list.png);
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    
+    
+    
+}
+.emailH{
+     /* Empty content to insert the image */
+   /* width: 20px; /* Set the desired width for the image */
+   /* height: 20px; /* Set the desired height for the image */
+     /* Allows the image to be inline with text */
+     /* Optional spacing between the image and text */
+     background-position:0ch;
+    background-image: url(../../assests/icons8-email-64.png);
+     background-size:20px;/* Adjust as needed */
+    background-repeat: no-repeat;
+    
+    
+  
+}
+.phoneH{
+     background-position:0ch;
+    background-image: url(../../assests/icons8-call-48.png);
+     background-size:20px;/* Adjust as needed */
+    background-repeat: no-repeat;
+
+}
+
+
+tbody {
+    height: 4vh;
+    border-bottom: 1px solid #6141689d; /* Dark line after headers */
+    padding: 10px;
+    text-align: left;
+   
+    
+}
+
+tr:hover{
+    background-color: #f2f2f2;
+}
+
+.editButton {
+    background-color: #366906; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-right: 10px;
+    border-radius: 45px;
+}
+
+.editButton:hover {
+    background-color: #71e643; /* Darker blue background color on hover */
+}
+
+.deleteButton {
+    background-color: #f119c3; /* Red background color */
+    color: #fff; /* Text color */
+    padding: 8px 16px; /* Padding around the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 45px;
+}
+  
+.deleteButton:hover {
+    background-color: #c31de4; /* Darker red background color on hover */
+}
+  
+.addContact{
+    margin-bottom: -2vw;
+}
+
+.addContact button{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 2vw;
+    
+    
+    background-color: #f572be;
+}
+
+.addContact button:hover{
+    background-color: #343a40;
+    cursor: pointer;
+    color: white;
+}
+
+
